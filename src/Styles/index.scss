@@ -1,0 +1,20 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.nav{
+    background-color: aquamarine;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        li{
+            font-size: 2rem;
+            color: gold;
+        }
+    }
+}
