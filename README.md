@@ -1,2 +1,2 @@
 # react-sass
-Learning git 
+Learning git and github
