@@ -1,20 +1,9 @@
-@use "./../../Styles/variables.scss" as *;
 .navbar {
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    li {
-      font-size: $font-size-lg;
-
-      a {
-        text-decoration: none;
-        color: $primary-text-color;
-        transition: color 250ms ease-in-out;
-        &:hover {
-          color: rgb(135, 160, 46);
-        }
-      }
+  font-size: 4rem;
+  padding: 4rem;
+  nav {
+    ul {
+      list-style: none;
     }
   }
 }
