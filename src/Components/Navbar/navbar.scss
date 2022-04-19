@@ -4,9 +4,16 @@
   nav {
     ul {
       list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: antiquewhite;
     }
     li {
       padding: 2px;
+      a {
+        text-decoration: none;
+      }
     }
   }
 }
