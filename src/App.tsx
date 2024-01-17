@@ -1,9 +1,9 @@
-import UseState from "./topics/UseState";
+import UseMemo from "./topics/UseMemo";
 
 function App() {
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <UseState />
+      <UseMemo />
     </div>
   );
 }
